@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf6e015c-198f-4f09-9ad7-49a361b43667" name="Changes" comment="init">
+    <list default="true" id="cf6e015c-198f-4f09-9ad7-49a361b43667" name="Changes" comment="add ssr nodejs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +96,7 @@
       <workItem from="1694291998349" duration="5919000" />
       <workItem from="1694299181360" duration="1785000" />
       <workItem from="1694315076951" duration="3175000" />
-      <workItem from="1694354220439" duration="6336000" />
+      <workItem from="1694354220439" duration="8634000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -103,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694362805142</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add ssr nodejs">
+      <option name="closed" value="true" />
+      <created>1694366005026</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694366005026</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +133,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="add ssr nodejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ssr nodejs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
