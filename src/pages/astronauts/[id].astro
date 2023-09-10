@@ -1,0 +1,21 @@
+---
+import {getLaunchBy} from "../../services/spacex";
+import Layout from "../../layouts/Layout.astro";
+const {id} = Astro.params
+
+let launch = null
+if (id) {
+    launch = await getLaunchBy({id})
+}
+console.log(launch)
+if (!launch) {
+    return Astro.redirect('/')
+}
+---
+<Layout title={launch.name}
+        description={launch.details}>
+    <article>
+        <h1>{launch.name}</h1>
+        <p>{launch.details}</p>
+    </article>
+</Layout>

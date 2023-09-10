@@ -1,0 +1,23 @@
+---
+interface Props {
+    id: string;
+    name: string;
+    success: boolean;
+    flightNumber: number;
+    details: string;
+}
+
+const {success, flightNumber, details, name, id} = Astro.props
+const successText = success ? 'Success' : 'Failure'
+---
+
+<article class="space-y-4 border-2 border-gray-100 rounded p-4">
+    <h2 class="text-2xl">{name}</h2>
+    <hr>
+    <p>{details}</p>
+    <p>Flight Number: {flightNumber}</p>
+    <p>Success: {successText}</p>
+    <div class="pt-4 underline">
+        <a href={`/astronauts/${id}`}>Read more</a>
+    </div>
+</article>
